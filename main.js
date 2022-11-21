@@ -8,7 +8,7 @@ const car = new Car(road.getLaneCenter(1), 100, 30, 50);
 animate();
 
 function animate() {
-  car.update();
+  car.update(road.borders);
   canvas.height = window.innerHeight;
   ctx.save();
   //makes road move you can change the car start position here
