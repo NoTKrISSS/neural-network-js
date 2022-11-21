@@ -1,6 +1,6 @@
 class Road {
   //change the laneCount here
-  constructor(x, width, laneCount = 5) {
+  constructor(x, width, laneCount = 4) {
     this.x = x;
     this.width = width;
     this.laneCount = laneCount;

@@ -12,7 +12,7 @@ function animate() {
   canvas.height = window.innerHeight;
   ctx.save();
   //makes road move you can change the car start position here
-  ctx.translate(0, -car.y + canvas.height * 0.7);
+  ctx.translate(0, -car.y + canvas.height * 0.8);
   road.draw(ctx);
   car.draw(ctx);
   ctx.restore();
